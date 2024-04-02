@@ -20,15 +20,11 @@ const generateHash = (str) => {
     false;
   }
   let text = str?.split(" ");
-  //1St way
-  //   text = text?.map((e) => {
-  //     return e?.replace(e[0], e[0]?.toUpperCase());
-  //   });
-  //   text = `#${text?.join("")}`;
-  //   return text;
-
-  // 2nd way
   text = text?.map((e) => {
+    //1St way
+    //     return e?.replace(e[0], e[0]?.toUpperCase());
+
+    // 2nd way
     return e?.charAt(0)?.toUpperCase() + e?.slice(1);
   });
   text = `#${text?.join("")}`;
