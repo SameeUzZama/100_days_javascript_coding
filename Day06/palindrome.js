@@ -18,7 +18,11 @@ console.log(isPalindrome("hello")); // Output: false
 // Constraints:
 //
 
-// The input string may contain letters, digits, spaces, punctuation, and special characters.
-// The function should be case-insensitive, meaning "Racecar" and "racecar" should be considered the same.
-// Ignore spaces, punctuation, and special characters when determining if a string is a palindrome.
-// The function should return true if the input string is a palindrome and false otherwise.
+// The input string may contain letters, digits, spaces, 
+// punctuation, and special characters.
+// The function should be case-insensitive, meaning 
+// "Racecar" and "racecar" should be considered the same.
+// Ignore spaces, punctuation, and special characters when 
+// determining if a string is a palindrome.
+// The function should return true if the input string is 
+// a palindrome and false otherwise.
