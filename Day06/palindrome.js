@@ -5,9 +5,9 @@
 // capitalization.
 
 const isPalindrome = (str) => {
-  str = str?.toLowerCase();
+  str = str?.toLowerCase().replace(/\W/g, '');
   const newStr = str.split("").reverse().join("");
-  console.log(newStr);
+  return str === newStr ? true : false;
 };
 
 console.log(isPalindrome("A man, a plan, a canal,Panama")); // Output: true
